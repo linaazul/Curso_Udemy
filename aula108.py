@@ -2,6 +2,7 @@
 from itertools import count
 
 count1 = count(0, 8)  # começa do 0 e step para multiplos de 8
+count2 = count(step=8, start=0)  # count com argumentos nomeados
 range1 = range(10, 100)
 
 print('count', hasattr(count1, '__iter__'))
