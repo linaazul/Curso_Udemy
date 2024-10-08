@@ -8,3 +8,23 @@
 # Você pode dar o nome que preferir para um
 # ambiente virtual, mas os mais comuns são:
 # venv env .venv .env
+
+# comando para criar o ambiente virtual:
+# py -m venv *nome*
+
+# Para ativar o ambiente virtual é necessário entrar na pasta do ambiente > scripts > activate:
+# venv\Scripts\activate
+
+# Para desativar:
+# deactivate
+
+# pip - instalando pacotes e bibliotecas
+# Instalar última versão:
+# pip install nome_pacote
+# Instalar versão precisa
+# (tem outras formas também não mencionadas)
+# pip install nome_pacote==0.0.0
+# Desinstalar pacote
+# pip uninstall nome_pacote
+# Congelar (ver pacotes)
+# pip freeze
